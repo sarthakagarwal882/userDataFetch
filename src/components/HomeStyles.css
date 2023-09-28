@@ -24,3 +24,23 @@
   align-items: center;
 }
 
+@media only screen and (max-width: 800px) {
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: relative;
+  }
+  .user-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+    position: relative;
+    margin: 1rem 0 0 0;
+  }
+  .user-list{
+    margin: 1rem auto 0;
+  }
+}
